@@ -5,8 +5,8 @@ def check_saved_characters() -> json:
         character_data = json.load(f)
 
     if character_data['characters']:
-        for character in character_data['characters']:
-            print(f"1. {character['name']}")
+        for index, character in enumerate(character_data['characters']):
+            print(f"{index}. {character['name']}")
     else:
         create_character()
     #return character_data
