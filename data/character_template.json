@@ -1,0 +1,7 @@
+{
+    "name": "hero",
+    "health": 100,
+    "inventory": {
+        "health_potion": 3
+    }
+}
